@@ -1,0 +1,14 @@
+{
+  "thresholds": {
+    "cpu_usage": 80,
+    "memory_usage": 85,
+    "disk_usage": 90,
+    "network_latency": 100
+  },
+  "alert_channels": {
+    "email": "admin@company.com",
+    "slack": "#alerts"
+  },
+  "check_interval": 300,
+  "retention_days": 30
+}

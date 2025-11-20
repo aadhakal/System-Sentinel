@@ -1,0 +1,29 @@
+{
+  "web_server": {
+    "name": "web-server-{id}",
+    "cpu": 2,
+    "memory": 4096,
+    "disk": 50,
+    "os": "ubuntu-20.04",
+    "services": ["nginx", "python3", "ufw"],
+    "ports": [80, 443, 22]
+  },
+  "database_server": {
+    "name": "db-server-{id}",
+    "cpu": 4,
+    "memory": 8192,
+    "disk": 100,
+    "os": "ubuntu-20.04",
+    "services": ["mysql", "ufw"],
+    "ports": [3306, 22]
+  },
+  "monitoring_server": {
+    "name": "monitor-server-{id}",
+    "cpu": 2,
+    "memory": 2048,
+    "disk": 30,
+    "os": "ubuntu-20.04",
+    "services": ["prometheus", "grafana", "ufw"],
+    "ports": [9090, 3000, 22]
+  }
+}
