@@ -2,10 +2,6 @@
 
 Python-based infrastructure automation system with real-time web dashboard for server deployment, monitoring, and management.
 
-## Dashboard Preview
-
-![Dashboard Overview](media/homepage.png)
-
 ## Features in Action
 
 | Demo | ![Deploy Demo](media/demo.gif) |
